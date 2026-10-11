@@ -1,0 +1,18 @@
+{
+  "name": "rag-chunking-benchmark",
+  "version": "1.0.0",
+  "description": "The three chunkers from a real 800-question RAG chunking benchmark, as a zero-dependency library and CLI, with the published results data.",
+  "type": "module",
+  "main": "src/chunkers.mjs",
+  "exports": "./src/chunkers.mjs",
+  "bin": { "chunk-lab": "src/cli.mjs" },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["rag", "chunking", "retrieval", "benchmark", "recall", "embeddings", "text-splitting"],
+  "author": "Alexander Ryan (https://alexryan.tech)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/AlexRyan92/rag-chunking-benchmark.git", "directory": "js" },
+  "homepage": "https://alexryan.tech/tools/chunking-benchmark-lab.html"
+}
