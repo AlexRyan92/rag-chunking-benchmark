@@ -1,0 +1,40 @@
+{
+  "config": {
+    "articles": 20,
+    "questions": 800,
+    "chunk_tokens": 200,
+    "overlap_tokens": 0,
+    "model": "all-MiniLM-L6-v2",
+    "dataset": "SQuAD v1.1 dev",
+    "seed": 7
+  },
+  "results": {
+    "fixed": {
+      "recall@1": 0.6112,
+      "recall@3": 0.8013,
+      "recall@5": 0.8712,
+      "chunks": 818,
+      "avg_tokens": 197.3,
+      "duplication_pct": 0.0,
+      "embedded_tokens": 161426
+    },
+    "sentence": {
+      "recall@1": 0.6687,
+      "recall@3": 0.8562,
+      "recall@5": 0.905,
+      "chunks": 925,
+      "avg_tokens": 174.5,
+      "duplication_pct": 0.0,
+      "embedded_tokens": 161426
+    },
+    "recursive": {
+      "recall@1": 0.7075,
+      "recall@3": 0.8812,
+      "recall@5": 0.9137,
+      "chunks": 1010,
+      "avg_tokens": 159.8,
+      "duplication_pct": 0.0,
+      "embedded_tokens": 161426
+    }
+  }
+}
